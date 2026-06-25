@@ -1,3 +1,8 @@
+.header {
+  display: flex;
+  padding: 24px 0;
+}
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -11,16 +16,28 @@
   color: #4d5ae5;
 }
 
+.header-nav-list {
+  display: flex;
+  column-gap: 40px;
+  margin: 0 340px 0 76px;
+}
+
 .header-nav-list a {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  transition: 0.3s;
 }
 
 .header-nav-list a:hover,
 .header-nav-list a:focus {
   color: #404bbf;
+}
+
+.header-contacts-list {
+  display: flex;
+  column-gap: 40px;
 }
 
 .header-contacts {
@@ -32,6 +49,7 @@
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  transition: 0.3s;
 }
 
 .header-contacts-list a:hover,

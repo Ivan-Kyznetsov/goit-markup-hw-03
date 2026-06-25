@@ -4,6 +4,25 @@
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: 360px;
+  border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 32px;
+}
+
+.portfolio-list-img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 32px;
 }
 
 .portfolio-list-title {
@@ -11,6 +30,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-description {
