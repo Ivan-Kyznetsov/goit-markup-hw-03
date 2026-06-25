@@ -17,14 +17,12 @@
 }
 
 .team-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   background-color: #fff;
   padding-bottom: 32px;
 }
 
 .team-list-img {
-  width: 100%;
-  object-fit: cover;
   margin-bottom: 32px;
 }
 
