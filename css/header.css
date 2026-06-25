@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -10,6 +10,7 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 24px 0;
 }
 
 .header-logo span {
@@ -23,11 +24,13 @@
 }
 
 .header-nav-list a {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   transition: 0.3s;
+  padding: 24px 0;
 }
 
 .header-nav-list a:hover,
@@ -45,11 +48,13 @@
 }
 
 .header-contacts-list a {
+  display: inline-block;
   font-size: 16px;
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
   transition: 0.3s;
+  padding: 24px 0;
 }
 
 .header-contacts-list a:hover,
