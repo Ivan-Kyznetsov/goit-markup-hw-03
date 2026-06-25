@@ -19,7 +19,6 @@
 .team-list-item {
   width: calc((100% - 72px) / 4);
   background-color: #fff;
-  padding-bottom: 32px;
 }
 
 .team-wrapper-info {
